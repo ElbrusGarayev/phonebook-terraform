@@ -37,7 +37,7 @@ resource "aws_launch_template" "launch-frontend" {
     resource_type = "instance"
 
     tags = {
-      Name = "my-frontend-app"
+      Name = "phonebook-front"
     }
   }
 

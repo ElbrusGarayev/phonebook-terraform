@@ -38,7 +38,7 @@ resource "aws_launch_template" "launch-backend" {
     resource_type = "instance"
 
     tags = {
-      Name = "my-backend-app"
+      Name = "phonebook-backend"
     }
   }
 
