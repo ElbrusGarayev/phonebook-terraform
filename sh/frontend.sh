@@ -20,7 +20,7 @@ mkdir -p /phonebook-react-front
 cd phonebook-react-front
 
 ssh-keyscan github.com >>/root/.ssh/known_hosts
-git clone git@github.com:ElbrusGarayev/phonebook-app.git
+git clone git@github.com:ElbrusGarayev/phonebook-react-front.git
 
 cd phonebook-react-front
 
